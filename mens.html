@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mens {
+            width: 50%;
+            height: auto;
+            display: flex;
+            margin: auto;
+        }
+
+        #mens>div {
+            width: 45%;
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+        }
+      #mens>div:nth-child(2)>h1{
+      margin-top: 60px;
+      }
+      h1{
+          text-align: start;
+      }
+
+        .price{
+            margin-top: -30px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        div>img {
+            width: 60%;
+            height: 50%;
+        }
+
+       h1+p{
+           margin-top: -10px;
+            text-align: start;
+            color: gray;
+        }
+
+        .price > p{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mens">
+        <div>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQNEtOrheWuMZvuUOJJaqdHQKycuNHmBMTzwVfM3DnT142YktPhNKp2fF_ZJx6XLFH5pCRH7x5jsMY&usqp=CAc" alt="">
+            <h1>Pause</h1>
+            <p>Men Cotton Long Sleeves Shurg</p>
+            <div class="price">
+                <h3>₹359</h3>
+                <del>₹1499</del>
+                <p>-76%</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/31HpK8hpkbL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h1>JUBINATION</h1>
+            <P>Men Wool Sleeveless Sweater Pack Of 1</P>
+            <div class="price">
+                <h3>₹799</h3>
+                <del>₹1499</del> 
+                <p>-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
